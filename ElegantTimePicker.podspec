@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ElegantTimePicker"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "functionality reduced and UI customized version for iOS UIDatePicker."
   s.description  = <<-DESC
                     ElegantTimePicker is a functionality reduced and UI customized version for iOS UIDatePicker.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://weibo.com/huantengsmart"
   s.platform     = :ios
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/HuanTeng/ElegantTimePicker.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/HuanTeng/ElegantTimePicker.git", :tag => "0.0.3" }
   s.source_files  = "ElegantTimePicker/*.{h,m}"
   s.public_header_files = "ElegantTimePicker/ElegantTimePicker.h"
   s.resources = "ElegantTimePicker/*.png"

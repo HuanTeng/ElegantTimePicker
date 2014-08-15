@@ -12,7 +12,7 @@
 		EE33C43E199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C435199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png */; };
 		EE33C43F199ED2DC00C2E93A /* background_elegent_picker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C436199ED2DC00C2E93A /* background_elegent_picker_top@2x.png */; };
 		EE33C440199ED2DC00C2E93A /* PLABElegantTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C438199ED2DC00C2E93A /* PLABElegantTimePicker.m */; };
-		EE33C441199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C43A199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.m */; };
+		EE33C441199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C43A199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m */; };
 		EE33C442199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C43C199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.m */; };
 		EEB9EC64199DACC900FEA1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC63199DACC900FEA1D6 /* Foundation.framework */; };
 		EEB9EC66199DACCA00FEA1D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC65199DACCA00FEA1D6 /* CoreGraphics.framework */; };
@@ -47,8 +47,8 @@
 		EE33C436199ED2DC00C2E93A /* background_elegent_picker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_top@2x.png"; path = "../ElegantTimePicker/background_elegent_picker_top@2x.png"; sourceTree = "<group>"; };
 		EE33C437199ED2DC00C2E93A /* PLABElegantTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePicker.h; path = ../ElegantTimePicker/PLABElegantTimePicker.h; sourceTree = "<group>"; };
 		EE33C438199ED2DC00C2E93A /* PLABElegantTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePicker.m; path = ../ElegantTimePicker/PLABElegantTimePicker.m; sourceTree = "<group>"; };
-		EE33C439199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePIckerColumnView.h; path = ../ElegantTimePicker/PLABElegantTimePIckerColumnView.h; sourceTree = "<group>"; };
-		EE33C43A199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePIckerColumnView.m; path = ../ElegantTimePicker/PLABElegantTimePIckerColumnView.m; sourceTree = "<group>"; };
+		EE33C439199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePickerColumnView.h; path = ../ElegantTimePicker/PLABElegantTimePickerColumnView.h; sourceTree = "<group>"; };
+		EE33C43A199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePickerColumnView.m; path = ../ElegantTimePicker/PLABElegantTimePickerColumnView.m; sourceTree = "<group>"; };
 		EE33C43B199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePickerTableViewCell.h; path = ../ElegantTimePicker/PLABElegantTimePickerTableViewCell.h; sourceTree = "<group>"; };
 		EE33C43C199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePickerTableViewCell.m; path = ../ElegantTimePicker/PLABElegantTimePickerTableViewCell.m; sourceTree = "<group>"; };
 		EEB9EC60199DACC900FEA1D6 /* ElegentTimePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegentTimePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,8 +102,8 @@
 				EE33C436199ED2DC00C2E93A /* background_elegent_picker_top@2x.png */,
 				EE33C437199ED2DC00C2E93A /* PLABElegantTimePicker.h */,
 				EE33C438199ED2DC00C2E93A /* PLABElegantTimePicker.m */,
-				EE33C439199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.h */,
-				EE33C43A199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.m */,
+				EE33C439199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.h */,
+				EE33C43A199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m */,
 				EE33C43B199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.h */,
 				EE33C43C199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.m */,
 			);
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB9EC7A199DACCA00FEA1D6 /* PLABViewController.m in Sources */,
-				EE33C441199ED2DC00C2E93A /* PLABElegantTimePIckerColumnView.m in Sources */,
+				EE33C441199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m in Sources */,
 				EE33C430199ECC4900C2E93A /* PLABAppDelegate.m in Sources */,
 				EE33C440199ED2DC00C2E93A /* PLABElegantTimePicker.m in Sources */,
 				EEB9EC70199DACCA00FEA1D6 /* main.m in Sources */,

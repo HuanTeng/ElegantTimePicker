@@ -68,7 +68,7 @@
 - (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString* reuseId = self.type == PLAB_ETPSV_TYPE_HOUR ? @"PLAB_ETPSV_TYPE_HOUR" : @"PLAB_ETPSV_TYPE_MIN";
-    int contentInt = [self contentIntWithIndex:indexPath.row];
+    NSInteger contentInt = [self contentIntWithIndex:indexPath.row];
     UITableViewCell* cell = [self.tableView dequeueReusableCellWithIdentifier:reuseId];
     if (!cell)
     {
@@ -81,12 +81,12 @@
     return cell;
 }
 
-- (int) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return PLAB_ETPSV_LARGE_NUMBER;
 }
 
-- (float) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return PLAB_ETPSV_SINLE_CELL_HEIGHT;
 }
