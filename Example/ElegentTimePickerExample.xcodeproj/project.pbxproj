@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE33C42D199ECC4900C2E93A /* background_elegent_picker_seperator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C422199ECC4900C2E93A /* background_elegent_picker_seperator@2x.png */; };
+		EE33C42E199ECC4900C2E93A /* background_elegent_picker_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C423199ECC4900C2E93A /* background_elegent_picker_bottom@2x.png */; };
+		EE33C42F199ECC4900C2E93A /* background_elegent_picker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C424199ECC4900C2E93A /* background_elegent_picker_top@2x.png */; };
+		EE33C430199ECC4900C2E93A /* PLABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C426199ECC4900C2E93A /* PLABAppDelegate.m */; };
+		EE33C431199ECC4900C2E93A /* PLABElegantTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C428199ECC4900C2E93A /* PLABElegantTimePicker.m */; };
+		EE33C432199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C42A199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.m */; };
+		EE33C433199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C42C199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.m */; };
+		EEB9EC64199DACC900FEA1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC63199DACC900FEA1D6 /* Foundation.framework */; };
+		EEB9EC66199DACCA00FEA1D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC65199DACCA00FEA1D6 /* CoreGraphics.framework */; };
+		EEB9EC68199DACCA00FEA1D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC67199DACCA00FEA1D6 /* UIKit.framework */; };
+		EEB9EC6E199DACCA00FEA1D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB9EC6C199DACCA00FEA1D6 /* InfoPlist.strings */; };
+		EEB9EC70199DACCA00FEA1D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9EC6F199DACCA00FEA1D6 /* main.m */; };
+		EEB9EC77199DACCA00FEA1D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB9EC75199DACCA00FEA1D6 /* Main.storyboard */; };
+		EEB9EC7A199DACCA00FEA1D6 /* PLABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9EC79199DACCA00FEA1D6 /* PLABViewController.m */; };
+		EEB9EC7C199DACCA00FEA1D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB9EC7B199DACCA00FEA1D6 /* Images.xcassets */; };
+		EEB9EC83199DACCA00FEA1D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC82199DACCA00FEA1D6 /* XCTest.framework */; };
+		EEB9EC84199DACCA00FEA1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC63199DACC900FEA1D6 /* Foundation.framework */; };
+		EEB9EC85199DACCA00FEA1D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB9EC67199DACCA00FEA1D6 /* UIKit.framework */; };
+		EEB9EC8D199DACCA00FEA1D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB9EC8B199DACCA00FEA1D6 /* InfoPlist.strings */; };
+		EEB9EC8F199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9EC8E199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB9EC86199DACCA00FEA1D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB9EC58199DACC900FEA1D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB9EC5F199DACC900FEA1D6;
+			remoteInfo = ElegentTimePickerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE33C422199ECC4900C2E93A /* background_elegent_picker_seperator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_seperator@2x.png"; path = "../ElegentTimePicker/background_elegent_picker_seperator@2x.png"; sourceTree = "<group>"; };
+		EE33C423199ECC4900C2E93A /* background_elegent_picker_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_bottom@2x.png"; path = "../ElegentTimePicker/background_elegent_picker_bottom@2x.png"; sourceTree = "<group>"; };
+		EE33C424199ECC4900C2E93A /* background_elegent_picker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_top@2x.png"; path = "../ElegentTimePicker/background_elegent_picker_top@2x.png"; sourceTree = "<group>"; };
+		EE33C425199ECC4900C2E93A /* PLABAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABAppDelegate.h; path = ../PLABAppDelegate.h; sourceTree = "<group>"; };
+		EE33C426199ECC4900C2E93A /* PLABAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABAppDelegate.m; path = ../PLABAppDelegate.m; sourceTree = "<group>"; };
+		EE33C427199ECC4900C2E93A /* PLABElegantTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePicker.h; path = ../ElegentTimePicker/PLABElegantTimePicker.h; sourceTree = "<group>"; };
+		EE33C428199ECC4900C2E93A /* PLABElegantTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePicker.m; path = ../ElegentTimePicker/PLABElegantTimePicker.m; sourceTree = "<group>"; };
+		EE33C429199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePIckerColumnView.h; path = ../ElegentTimePicker/PLABElegantTimePIckerColumnView.h; sourceTree = "<group>"; };
+		EE33C42A199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePIckerColumnView.m; path = ../ElegentTimePicker/PLABElegantTimePIckerColumnView.m; sourceTree = "<group>"; };
+		EE33C42B199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePickerTableViewCell.h; path = ../ElegentTimePicker/PLABElegantTimePickerTableViewCell.h; sourceTree = "<group>"; };
+		EE33C42C199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePickerTableViewCell.m; path = ../ElegentTimePicker/PLABElegantTimePickerTableViewCell.m; sourceTree = "<group>"; };
+		EEB9EC60199DACC900FEA1D6 /* ElegentTimePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegentTimePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB9EC63199DACC900FEA1D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEB9EC65199DACCA00FEA1D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEB9EC67199DACCA00FEA1D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEB9EC6B199DACCA00FEA1D6 /* ElegentTimePickerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElegentTimePickerExample-Info.plist"; sourceTree = "<group>"; };
+		EEB9EC6D199DACCA00FEA1D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB9EC6F199DACCA00FEA1D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB9EC71199DACCA00FEA1D6 /* ElegentTimePickerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElegentTimePickerExample-Prefix.pch"; sourceTree = "<group>"; };
+		EEB9EC76199DACCA00FEA1D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB9EC78199DACCA00FEA1D6 /* PLABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLABViewController.h; sourceTree = "<group>"; };
+		EEB9EC79199DACCA00FEA1D6 /* PLABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLABViewController.m; sourceTree = "<group>"; };
+		EEB9EC7B199DACCA00FEA1D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEB9EC81199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElegentTimePickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB9EC82199DACCA00FEA1D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEB9EC8A199DACCA00FEA1D6 /* ElegentTimePickerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElegentTimePickerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		EEB9EC8C199DACCA00FEA1D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB9EC8E199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElegentTimePickerExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB9EC5D199DACC900FEA1D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9EC66199DACCA00FEA1D6 /* CoreGraphics.framework in Frameworks */,
+				EEB9EC68199DACCA00FEA1D6 /* UIKit.framework in Frameworks */,
+				EEB9EC64199DACC900FEA1D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB9EC7E199DACCA00FEA1D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9EC83199DACCA00FEA1D6 /* XCTest.framework in Frameworks */,
+				EEB9EC85199DACCA00FEA1D6 /* UIKit.framework in Frameworks */,
+				EEB9EC84199DACCA00FEA1D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE33C421199ECC0F00C2E93A /* ElegantTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EE33C422199ECC4900C2E93A /* background_elegent_picker_seperator@2x.png */,
+				EE33C423199ECC4900C2E93A /* background_elegent_picker_bottom@2x.png */,
+				EE33C424199ECC4900C2E93A /* background_elegent_picker_top@2x.png */,
+				EE33C427199ECC4900C2E93A /* PLABElegantTimePicker.h */,
+				EE33C428199ECC4900C2E93A /* PLABElegantTimePicker.m */,
+				EE33C429199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.h */,
+				EE33C42A199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.m */,
+				EE33C42B199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.h */,
+				EE33C42C199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.m */,
+			);
+			name = ElegantTimePicker;
+			sourceTree = "<group>";
+		};
+		EEB9EC57199DACC900FEA1D6 = {
+			isa = PBXGroup;
+			children = (
+				EE33C421199ECC0F00C2E93A /* ElegantTimePicker */,
+				EEB9EC69199DACCA00FEA1D6 /* ElegantTimePickerExample */,
+				EEB9EC88199DACCA00FEA1D6 /* ElegantTimePickerExampleTests */,
+				EEB9EC62199DACC900FEA1D6 /* Frameworks */,
+				EEB9EC61199DACC900FEA1D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB9EC61199DACC900FEA1D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9EC60199DACC900FEA1D6 /* ElegentTimePickerExample.app */,
+				EEB9EC81199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB9EC62199DACC900FEA1D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9EC63199DACC900FEA1D6 /* Foundation.framework */,
+				EEB9EC65199DACCA00FEA1D6 /* CoreGraphics.framework */,
+				EEB9EC67199DACCA00FEA1D6 /* UIKit.framework */,
+				EEB9EC82199DACCA00FEA1D6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB9EC69199DACCA00FEA1D6 /* ElegantTimePickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9EC7B199DACCA00FEA1D6 /* Images.xcassets */,
+				EEB9EC75199DACCA00FEA1D6 /* Main.storyboard */,
+				EE33C425199ECC4900C2E93A /* PLABAppDelegate.h */,
+				EE33C426199ECC4900C2E93A /* PLABAppDelegate.m */,
+				EEB9EC78199DACCA00FEA1D6 /* PLABViewController.h */,
+				EEB9EC79199DACCA00FEA1D6 /* PLABViewController.m */,
+				EEB9EC6A199DACCA00FEA1D6 /* Supporting Files */,
+			);
+			name = ElegantTimePickerExample;
+			path = ElegentTimePickerExample;
+			sourceTree = "<group>";
+		};
+		EEB9EC6A199DACCA00FEA1D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9EC6B199DACCA00FEA1D6 /* ElegentTimePickerExample-Info.plist */,
+				EEB9EC6C199DACCA00FEA1D6 /* InfoPlist.strings */,
+				EEB9EC6F199DACCA00FEA1D6 /* main.m */,
+				EEB9EC71199DACCA00FEA1D6 /* ElegentTimePickerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB9EC88199DACCA00FEA1D6 /* ElegantTimePickerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9EC8E199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.m */,
+				EEB9EC89199DACCA00FEA1D6 /* Supporting Files */,
+			);
+			name = ElegantTimePickerExampleTests;
+			path = ElegentTimePickerExampleTests;
+			sourceTree = "<group>";
+		};
+		EEB9EC89199DACCA00FEA1D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9EC8A199DACCA00FEA1D6 /* ElegentTimePickerExampleTests-Info.plist */,
+				EEB9EC8B199DACCA00FEA1D6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB9EC5F199DACC900FEA1D6 /* ElegentTimePickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB9EC92199DACCA00FEA1D6 /* Build configuration list for PBXNativeTarget "ElegentTimePickerExample" */;
+			buildPhases = (
+				EEB9EC5C199DACC900FEA1D6 /* Sources */,
+				EEB9EC5D199DACC900FEA1D6 /* Frameworks */,
+				EEB9EC5E199DACC900FEA1D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElegentTimePickerExample;
+			productName = ElegentTimePickerExample;
+			productReference = EEB9EC60199DACC900FEA1D6 /* ElegentTimePickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB9EC80199DACCA00FEA1D6 /* ElegentTimePickerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB9EC95199DACCA00FEA1D6 /* Build configuration list for PBXNativeTarget "ElegentTimePickerExampleTests" */;
+			buildPhases = (
+				EEB9EC7D199DACCA00FEA1D6 /* Sources */,
+				EEB9EC7E199DACCA00FEA1D6 /* Frameworks */,
+				EEB9EC7F199DACCA00FEA1D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB9EC87199DACCA00FEA1D6 /* PBXTargetDependency */,
+			);
+			name = ElegentTimePickerExampleTests;
+			productName = ElegentTimePickerExampleTests;
+			productReference = EEB9EC81199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB9EC58199DACC900FEA1D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PLAB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PhantomLab;
+				TargetAttributes = {
+					EEB9EC80199DACCA00FEA1D6 = {
+						TestTargetID = EEB9EC5F199DACC900FEA1D6;
+					};
+				};
+			};
+			buildConfigurationList = EEB9EC5B199DACC900FEA1D6 /* Build configuration list for PBXProject "ElegentTimePickerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB9EC57199DACC900FEA1D6;
+			productRefGroup = EEB9EC61199DACC900FEA1D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB9EC5F199DACC900FEA1D6 /* ElegentTimePickerExample */,
+				EEB9EC80199DACCA00FEA1D6 /* ElegentTimePickerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB9EC5E199DACC900FEA1D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE33C42D199ECC4900C2E93A /* background_elegent_picker_seperator@2x.png in Resources */,
+				EEB9EC7C199DACCA00FEA1D6 /* Images.xcassets in Resources */,
+				EEB9EC6E199DACCA00FEA1D6 /* InfoPlist.strings in Resources */,
+				EE33C42E199ECC4900C2E93A /* background_elegent_picker_bottom@2x.png in Resources */,
+				EEB9EC77199DACCA00FEA1D6 /* Main.storyboard in Resources */,
+				EE33C42F199ECC4900C2E93A /* background_elegent_picker_top@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB9EC7F199DACCA00FEA1D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9EC8D199DACCA00FEA1D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB9EC5C199DACC900FEA1D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE33C432199ECC4900C2E93A /* PLABElegantTimePIckerColumnView.m in Sources */,
+				EEB9EC7A199DACCA00FEA1D6 /* PLABViewController.m in Sources */,
+				EE33C433199ECC4900C2E93A /* PLABElegantTimePickerTableViewCell.m in Sources */,
+				EE33C430199ECC4900C2E93A /* PLABAppDelegate.m in Sources */,
+				EE33C431199ECC4900C2E93A /* PLABElegantTimePicker.m in Sources */,
+				EEB9EC70199DACCA00FEA1D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB9EC7D199DACCA00FEA1D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9EC8F199DACCA00FEA1D6 /* ElegentTimePickerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB9EC87199DACCA00FEA1D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB9EC5F199DACC900FEA1D6 /* ElegentTimePickerExample */;
+			targetProxy = EEB9EC86199DACCA00FEA1D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB9EC6C199DACCA00FEA1D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB9EC6D199DACCA00FEA1D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEB9EC75199DACCA00FEA1D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB9EC76199DACCA00FEA1D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB9EC8B199DACCA00FEA1D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB9EC8C199DACCA00FEA1D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB9EC90199DACCA00FEA1D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEB9EC91199DACCA00FEA1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB9EC93199DACCA00FEA1D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElegentTimePickerExample/ElegentTimePickerExample-Prefix.pch";
+				INFOPLIST_FILE = "ElegentTimePickerExample/ElegentTimePickerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEB9EC94199DACCA00FEA1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElegentTimePickerExample/ElegentTimePickerExample-Prefix.pch";
+				INFOPLIST_FILE = "ElegentTimePickerExample/ElegentTimePickerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEB9EC96199DACCA00FEA1D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElegentTimePickerExample.app/ElegentTimePickerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElegentTimePickerExample/ElegentTimePickerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ElegentTimePickerExampleTests/ElegentTimePickerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EEB9EC97199DACCA00FEA1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElegentTimePickerExample.app/ElegentTimePickerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElegentTimePickerExample/ElegentTimePickerExample-Prefix.pch";
+				INFOPLIST_FILE = "ElegentTimePickerExampleTests/ElegentTimePickerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB9EC5B199DACC900FEA1D6 /* Build configuration list for PBXProject "ElegentTimePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB9EC90199DACCA00FEA1D6 /* Debug */,
+				EEB9EC91199DACCA00FEA1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB9EC92199DACCA00FEA1D6 /* Build configuration list for PBXNativeTarget "ElegentTimePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB9EC93199DACCA00FEA1D6 /* Debug */,
+				EEB9EC94199DACCA00FEA1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB9EC95199DACCA00FEA1D6 /* Build configuration list for PBXNativeTarget "ElegentTimePickerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB9EC96199DACCA00FEA1D6 /* Debug */,
+				EEB9EC97199DACCA00FEA1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB9EC58199DACC900FEA1D6 /* Project object */;
+}

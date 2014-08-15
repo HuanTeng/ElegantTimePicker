@@ -1,0 +1,1 @@
+ElegantTimePicker is a functionality reduced and UI customized version for iOS UIDatePicker.
