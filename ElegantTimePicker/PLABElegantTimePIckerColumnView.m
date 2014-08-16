@@ -17,8 +17,8 @@
 
 @interface PLABElegantTimePickerColumnView()
 @property (nonatomic, strong) UITableView* tableView;
-@property (nonatomic, assign) int initIndex;
-@property (nonatomic, assign) int index;
+@property (nonatomic, assign) NSInteger initIndex;
+@property (nonatomic, assign) NSInteger index;
 @end
 
 @implementation PLABElegantTimePickerColumnView
@@ -29,7 +29,7 @@
     return [self init];
 }
 
-- (id) initWithType:(int) type andIndex:(int)index
+- (id) initWithType:(NSInteger) type andIndex:(NSInteger)index
 {
     self = [super initWithFrame:CGRectMake(0, 0, PLAB_ETPSV_SINLE_CELL_WIDTH, PLAB_ETPSV_SINLE_CELL_HEIGHT)];
     if (self) {
@@ -58,9 +58,9 @@
     self.initIndex = -1;
 }
 
-- (void) selectRowWithIndex:(int) index
+- (void) selectRowWithIndex:(NSInteger) index
 {
-    int tableViewIndexInMiddle = PLAB_ETPSV_LARGE_NUMBER / PLAB_ETPSV_SINLE_CELL_HOUR_COUNT / 2 * PLAB_ETPSV_SINLE_CELL_HOUR_COUNT + index;
+    NSInteger tableViewIndexInMiddle = PLAB_ETPSV_LARGE_NUMBER / PLAB_ETPSV_SINLE_CELL_HOUR_COUNT / 2 * PLAB_ETPSV_SINLE_CELL_HOUR_COUNT + index;
     NSIndexPath* path = [NSIndexPath indexPathForRow:tableViewIndexInMiddle inSection:0];
     [self.tableView scrollToRowAtIndexPath:path atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 }
@@ -91,13 +91,13 @@
     return PLAB_ETPSV_SINLE_CELL_HEIGHT;
 }
 
-- (int) uniqueRowCount
+- (NSInteger) uniqueRowCount
 {
     return self.type == PLAB_ETPSV_TYPE_HOUR ? PLAB_ETPSV_SINLE_CELL_HOUR_COUNT :PLAB_ETPSV_SINLE_CELL_MIN_COUNT;
 }
 
 
-- (int) contentIntWithIndex:(int) index
+- (NSInteger) contentIntWithIndex:(NSInteger) index
 {
     if (self.type == PLAB_ETPSV_TYPE_HOUR)
     {
@@ -105,7 +105,7 @@
     }
     else if (self.type == PLAB_ETPSV_TYPE_MIN)
     {
-        int interval = 60/PLAB_ETPSV_SINLE_CELL_MIN_COUNT;
+        NSInteger interval = 60/PLAB_ETPSV_SINLE_CELL_MIN_COUNT;
         return (index % PLAB_ETPSV_SINLE_CELL_MIN_COUNT) * interval;
     }
     else

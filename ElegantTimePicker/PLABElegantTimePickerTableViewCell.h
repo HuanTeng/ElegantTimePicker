@@ -14,8 +14,8 @@
 
 @interface PLABElegantTimePickerTableViewCell : UITableViewCell
 
-- (id) initWithReuseIdentifier:(NSString *)reuseIdentifier type:(int)type andContentInt:(int)contentInt;
+- (id) initWithReuseIdentifier:(NSString *)reuseIdentifier type:(NSInteger)type andContentInt:(NSInteger)contentInt;
 
-@property (nonatomic, assign) int contentInt;
+@property (nonatomic, assign) NSInteger contentInt;
 
 @end

@@ -14,7 +14,7 @@
 
 @protocol PLABElegantTimePickerColumnViewDelegate <NSObject>
 
-- (void) didSelectRowWithType:(int)type andIndex:(int)index;
+- (void) didSelectRowWithType:(NSInteger)type andIndex:(NSInteger)index;
 
 @end
 
@@ -25,10 +25,10 @@ UITableViewDelegate,
 UITableViewDataSource
 >
 
-@property (nonatomic, assign) int type;
+@property (nonatomic, assign) NSInteger type;
 @property (nonatomic, weak) id<PLABElegantTimePickerColumnViewDelegate> delegate;
-@property (nonatomic, readonly) int index;
-- (id) initWithType:(int) type andIndex:(int)index;
-- (void) selectRowWithIndex:(int) index;
+@property (nonatomic, readonly) NSInteger index;
+- (id) initWithType:(NSInteger) type andIndex:(NSInteger)index;
+- (void) selectRowWithIndex:(NSInteger) index;
 
 @end

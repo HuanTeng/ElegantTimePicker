@@ -15,14 +15,14 @@
 #define PLAB_ETPSV_SINLE_CELL_MIN_COUNT     12
 
 @interface PLABElegantTimePickerTableViewCell()
-@property (nonatomic, assign) int type;
+@property (nonatomic, assign) NSInteger type;
 @property (nonatomic, strong) UILabel* label;
 
 @end
 
 @implementation PLABElegantTimePickerTableViewCell
 
-- (id) initWithReuseIdentifier:(NSString *)reuseIdentifier type:(int)type andContentInt:(int)contentInt
+- (id) initWithReuseIdentifier:(NSString *)reuseIdentifier type:(NSInteger)type andContentInt:(NSInteger)contentInt
 {
     self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
     if (self) {
@@ -56,7 +56,7 @@
     }
 }
 
-- (void) setContentInt:(int)contentInt
+- (void) setContentInt:(NSInteger)contentInt
 {
     self.label.text = [NSString stringWithFormat:@"%.2d", contentInt];
 }

@@ -19,7 +19,7 @@
 @end
 
 @implementation PLABElegantTimePicker
-- (id)initWithFrame:(CGRect)frame withHourIndex:(int)hourIndex andMinIndex:(int)minIndex
+- (id)initWithFrame:(CGRect)frame withHourIndex:(NSInteger)hourIndex andMinIndex:(NSInteger)minIndex
 {
     self = [super initWithFrame:frame];
     if (self) {
@@ -54,12 +54,12 @@
 - (void) layoutSubviews
 {
     [super layoutSubviews];
-    int upperMargin = (PLAB_ETPSV_PICKER_HEIGHT - PLAB_ETPSV_SINLE_CELL_HEIGHT*3)/2;
+    NSInteger upperMargin = (PLAB_ETPSV_PICKER_HEIGHT - PLAB_ETPSV_SINLE_CELL_HEIGHT*3)/2;
     self.hourColumnView.frame = CGRectMake(0, upperMargin, 160, CGRectGetHeight(self.bounds));
     self.minColumnView.frame = CGRectMake(160, upperMargin, 160, CGRectGetHeight(self.bounds));
 }
 
-- (void) didSelectRowWithType:(int)type andIndex:(int)index
+- (void) didSelectRowWithType:(NSInteger)type andIndex:(NSInteger)index
 {
     if (self.delegate)
     {

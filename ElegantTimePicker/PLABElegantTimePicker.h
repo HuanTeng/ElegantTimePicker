@@ -13,7 +13,7 @@
 
 @protocol PLABElegantTimePickerDelegate <NSObject>
 
-- (void) pickerValueDidChangeWithHourIndex:(int)hour_index andMinIndex:(int)minIndex;
+- (void) pickerValueDidChangeWithHourIndex:(NSInteger)hour_index andMinIndex:(NSInteger)minIndex;
 
 @end
 
@@ -21,6 +21,6 @@
 
 @property (nonatomic, weak) id<PLABElegantTimePickerDelegate> delegate;
 
-- (id)initWithFrame:(CGRect)frame withHourIndex:(int) hourIndex andMinIndex:(int)minIndex;
+- (id)initWithFrame:(CGRect)frame withHourIndex:(NSInteger) hourIndex andMinIndex:(NSInteger)minIndex;
 
 @end

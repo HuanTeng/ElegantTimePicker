@@ -57,7 +57,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) pickerValueDidChangeWithHourIndex:(int)hour_index andMinIndex:(int)minIndex
+- (void) pickerValueDidChangeWithHourIndex:(NSInteger)hour_index andMinIndex:(NSInteger)minIndex
 {
     
 }
