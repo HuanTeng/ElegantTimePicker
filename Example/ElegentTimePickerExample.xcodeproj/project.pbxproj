@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EE33C430199ECC4900C2E93A /* PLABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C426199ECC4900C2E93A /* PLABAppDelegate.m */; };
-		EE33C43D199ED2DC00C2E93A /* background_elegent_picker_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C434199ED2DC00C2E93A /* background_elegent_picker_bottom@2x.png */; };
-		EE33C43E199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C435199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png */; };
-		EE33C43F199ED2DC00C2E93A /* background_elegent_picker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C436199ED2DC00C2E93A /* background_elegent_picker_top@2x.png */; };
+		EE33C43D199ED2DC00C2E93A /* background_elegant_picker_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C434199ED2DC00C2E93A /* background_elegant_picker_bottom@2x.png */; };
+		EE33C43E199ED2DC00C2E93A /* background_elegant_picker_seperator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C435199ED2DC00C2E93A /* background_elegant_picker_seperator@2x.png */; };
+		EE33C43F199ED2DC00C2E93A /* background_elegant_picker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE33C436199ED2DC00C2E93A /* background_elegant_picker_top@2x.png */; };
 		EE33C440199ED2DC00C2E93A /* PLABElegantTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C438199ED2DC00C2E93A /* PLABElegantTimePicker.m */; };
 		EE33C441199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C43A199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.m */; };
 		EE33C442199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33C43C199ED2DC00C2E93A /* PLABElegantTimePickerTableViewCell.m */; };
@@ -42,9 +42,9 @@
 /* Begin PBXFileReference section */
 		EE33C425199ECC4900C2E93A /* PLABAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABAppDelegate.h; path = ../PLABAppDelegate.h; sourceTree = "<group>"; };
 		EE33C426199ECC4900C2E93A /* PLABAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABAppDelegate.m; path = ../PLABAppDelegate.m; sourceTree = "<group>"; };
-		EE33C434199ED2DC00C2E93A /* background_elegent_picker_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_bottom@2x.png"; path = "../ElegantTimePicker/background_elegent_picker_bottom@2x.png"; sourceTree = "<group>"; };
-		EE33C435199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_seperator@2x.png"; path = "../ElegantTimePicker/background_elegent_picker_seperator@2x.png"; sourceTree = "<group>"; };
-		EE33C436199ED2DC00C2E93A /* background_elegent_picker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegent_picker_top@2x.png"; path = "../ElegantTimePicker/background_elegent_picker_top@2x.png"; sourceTree = "<group>"; };
+		EE33C434199ED2DC00C2E93A /* background_elegant_picker_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegant_picker_bottom@2x.png"; path = "../ElegantTimePicker/background_elegant_picker_bottom@2x.png"; sourceTree = "<group>"; };
+		EE33C435199ED2DC00C2E93A /* background_elegant_picker_seperator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegant_picker_seperator@2x.png"; path = "../ElegantTimePicker/background_elegant_picker_seperator@2x.png"; sourceTree = "<group>"; };
+		EE33C436199ED2DC00C2E93A /* background_elegant_picker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_elegant_picker_top@2x.png"; path = "../ElegantTimePicker/background_elegant_picker_top@2x.png"; sourceTree = "<group>"; };
 		EE33C437199ED2DC00C2E93A /* PLABElegantTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePicker.h; path = ../ElegantTimePicker/PLABElegantTimePicker.h; sourceTree = "<group>"; };
 		EE33C438199ED2DC00C2E93A /* PLABElegantTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLABElegantTimePicker.m; path = ../ElegantTimePicker/PLABElegantTimePicker.m; sourceTree = "<group>"; };
 		EE33C439199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLABElegantTimePickerColumnView.h; path = ../ElegantTimePicker/PLABElegantTimePickerColumnView.h; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		EE33C421199ECC0F00C2E93A /* ElegantTimePicker */ = {
 			isa = PBXGroup;
 			children = (
-				EE33C434199ED2DC00C2E93A /* background_elegent_picker_bottom@2x.png */,
-				EE33C435199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png */,
-				EE33C436199ED2DC00C2E93A /* background_elegent_picker_top@2x.png */,
+				EE33C434199ED2DC00C2E93A /* background_elegant_picker_bottom@2x.png */,
+				EE33C435199ED2DC00C2E93A /* background_elegant_picker_seperator@2x.png */,
+				EE33C436199ED2DC00C2E93A /* background_elegant_picker_top@2x.png */,
 				EE33C437199ED2DC00C2E93A /* PLABElegantTimePicker.h */,
 				EE33C438199ED2DC00C2E93A /* PLABElegantTimePicker.m */,
 				EE33C439199ED2DC00C2E93A /* PLABElegantTimePickerColumnView.h */,
@@ -265,10 +265,10 @@
 			files = (
 				EEB9EC7C199DACCA00FEA1D6 /* Images.xcassets in Resources */,
 				EEB9EC6E199DACCA00FEA1D6 /* InfoPlist.strings in Resources */,
-				EE33C43E199ED2DC00C2E93A /* background_elegent_picker_seperator@2x.png in Resources */,
+				EE33C43E199ED2DC00C2E93A /* background_elegant_picker_seperator@2x.png in Resources */,
 				EEB9EC77199DACCA00FEA1D6 /* Main.storyboard in Resources */,
-				EE33C43D199ED2DC00C2E93A /* background_elegent_picker_bottom@2x.png in Resources */,
-				EE33C43F199ED2DC00C2E93A /* background_elegent_picker_top@2x.png in Resources */,
+				EE33C43D199ED2DC00C2E93A /* background_elegant_picker_bottom@2x.png in Resources */,
+				EE33C43F199ED2DC00C2E93A /* background_elegant_picker_top@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

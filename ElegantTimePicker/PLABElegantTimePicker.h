@@ -23,4 +23,7 @@
 
 - (id)initWithFrame:(CGRect)frame withHourIndex:(NSInteger) hourIndex andMinIndex:(NSInteger)minIndex;
 
+- (NSInteger) hour;
+- (NSInteger) minute;
+
 @end

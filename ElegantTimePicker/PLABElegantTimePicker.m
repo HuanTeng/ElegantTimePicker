@@ -27,11 +27,14 @@
         self.minColumnView = [[PLABElegantTimePickerColumnView alloc] initWithType:PLAB_ETPSV_TYPE_MIN andIndex:minIndex];
         self.hourColumnView.delegate = self;
         self.minColumnView.delegate = self;
-        UIImage* seperatorImage = [UIImage imageNamed:@"background_Elegant_picker_seperator"];
-        UIImageView* seperatorImageView = [[UIImageView alloc] initWithImage:seperatorImage];
+        UIImage* seperatorImage = [UIImage imageNamed:@"background_elegant_picker_seperator"];
+        UIImage* topCoverImage = [UIImage imageNamed:@"background_elegant_picker_top"];
+        UIImage* bottomCoverImage = [UIImage imageNamed:@"background_elegant_picker_bottom"];
+        assert(seperatorImage && topCoverImage && bottomCoverImage);
         
-        UIImageView* topCoverImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background_Elegant_picker_top"]];
-        UIImageView* bottomCoverImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background_Elegant_picker_bottom"]];
+        UIImageView* seperatorImageView = [[UIImageView alloc] initWithImage:seperatorImage];
+        UIImageView* topCoverImageView = [[UIImageView alloc] initWithImage:topCoverImage];
+        UIImageView* bottomCoverImageView = [[UIImageView alloc] initWithImage:bottomCoverImage];
         
         
         [self addSubview:self.hourColumnView];
@@ -50,6 +53,17 @@
     }
     return self;
 }
+
+- (NSInteger) hour
+{
+    return self.hourColumnView.index;
+}
+
+- (NSInteger) minute
+{
+    return self.minColumnView.index * 5;
+}
+
 
 - (void) layoutSubviews
 {
