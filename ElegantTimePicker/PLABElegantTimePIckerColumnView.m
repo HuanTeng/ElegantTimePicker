@@ -43,6 +43,7 @@
         self.tableView.showsVerticalScrollIndicator = NO;
         self.tableView.separatorColor = [UIColor clearColor];
         self.initIndex = index;
+        self.index = index;
     }
     return self;
 }
